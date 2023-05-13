@@ -4,6 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts";
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import Spinner from "./Spinner";
 
+
 const FrequencyData = () => {
   const [histogramData, setHistogramData] = useState(null);
   const [data, setData] = useState([]);
@@ -57,8 +58,8 @@ const FrequencyData = () => {
   };
   return (
     <div>
-      <div>
-        <button style={{width:"8vw",height:"6vh",fontSize:"30px"}}class="btn btn-primary" onClick={fetchHistogramData}>{loading && <Spinner />}Submit</button>
+      <div className="frequency">
+        <button class="btn btn-primary btn-lg" onClick={fetchHistogramData}>{loading && <Spinner />}Submit</button>
         &nbsp;&nbsp;&nbsp;{loading && <Spinner />}
         {histogramData && (
           <div>

@@ -568,7 +568,7 @@
       background: #E4E9F7;
       height: 100vh;
       width: calc(100% - 260px);
-      left: 260px;
+      left: 340px;
       transition: all 0.5s ease;
   }
   
@@ -801,4 +801,13 @@
       .sidebar.close .nav-links li .sub-menu {
           display: none;
       }
+      .home-section {
+        height: 70px;
+        width:200%;
+        background: #262626;
+    }
+      .frequency{
+         margin-left: 200px;   
+      }
+      
   }

@@ -96,8 +96,8 @@ const TextDataParser = () => {
     <div >
       <div >
         <div class="d-flex" style={{alignItems:'center',display:'flex',justifyContent:'center'}}>
-          <input style={{width:'80vw',height:'6vh',border:'1px solid black'}} value={url} onChange={handleUrlChange} class="form-control me-2" type="search" placeholder="Enter the URL.." aria-label="Search" />
-          <button style={{width:"8vw",height:"6vh",fontSize:"30px"}} class="btn btn-dark" onClick={fetchHistogramData}>{loading && <Spinner />}Submit</button>
+          <input style={{width:'80vw',height:'5vh',border:'1px solid black'}} value={url} onChange={handleUrlChange} class="form-control me-2" type="search" placeholder="Enter the URL.." aria-label="Search" />
+          <button  class="btn btn-dark btn-lg" onClick={fetchHistogramData}>{loading && <Spinner />}Submit</button>
         </div>
         {loading && <Spinner />}
         
