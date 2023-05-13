@@ -55,7 +55,7 @@ const Dashboard = () => {
             <div className={isSidebarOpen ? 'sidebar open' : 'sidebar'}>
                 <div className="logo-details">
                     {/* <i className="bx bxl-c-plus-plus"></i> */}
-                    <img style={{height:'9vh',width:'10vw'}}src='https://d1fdloi71mui9q.cloudfront.net/gYmMqwKSvilFcYmulthg_AvQOEngi6D3asiow' alt='loading'/>
+                    <img style={{ height: '9vh', width: '15vw' }} src='https://d1fdloi71mui9q.cloudfront.net/gYmMqwKSvilFcYmulthg_AvQOEngi6D3asiow' alt='loading' />
                     <span className="logo_name"></span>
                 </div>
                 <ul className="nav-links">
@@ -132,19 +132,12 @@ const Dashboard = () => {
                 </ul>
             </div>
             <section className="home-section">
-                <div className="home-content" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <div className="home-content" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <i className="bx bx-menu" onClick={toggleSidebar}></i>
-                    <span style={{color:'whitesmoke'}}className="text">Word Frequency Fetcher</span>
-                    
+                    <span style={{ color: 'whitesmoke' }} className="text">Word Frequency Fetcher</span>
+
                     <div className="nav-container">
-                        <nav>
-                            <div className="nav-mobile">
-                                <a id="nav-toggle" href="#!">
-                                    <span></span>
-                                </a>
-                            </div>
-                            
-                        </nav>
+                        
                     </div>
                 </div>
                 <div className="damroo">
@@ -211,16 +204,16 @@ const Dashboard = () => {
                 <br />
                 <hr />
                 <div id="content">
-                    <p style={{ fontSize: '25px' }}><b>Click Submit button to show the Bargraph and PieChart</b> </p>
+                    <p style={{ fontSize: '25px' }}><b>Click Submit button to view the Bargraph and PieChart</b> </p>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='frequencydata-box'>
 
                         <FrequencyData />
                     </div>
-                    <br/>
+                    <br />
                     {/* <ChartData/> */}
                     <p style={{ fontSize: '20px' }}><b> <h3><b>Or</b></h3> <br /><br /><br /> You can type the <mark style={{ backgroundColor: 'yellow' }}>.txt</mark> URL for Fetch the data and Click Submit Button to Show the bargraph and Piechart</b> </p>
                     <div className='frequencydata-box'>
-                        
+
                         <TextDataParser />
                     </div>
 
