@@ -10,7 +10,7 @@ import {
 } from "recharts";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import Spinner from "./Spinner";
-import './TextDataParser.css';
+
 
 const COLORS = [
   "#0088FE",
@@ -96,7 +96,7 @@ const TextDataParser = () => {
     <div >
       <div >
         <div class="d-flex" style={{alignItems:'center',display:'flex',justifyContent:'center'}}>
-          <input style={{width:'40vw',height:'5vh',border:'1px solid black'}} value={url} onChange={handleUrlChange} class="form-control me-2" type="search" placeholder="Enter the URL.." aria-label="Search" />
+          <input style={{width:'40vw',height:'5vh',border:'1px solid black'}} value={url} onChange={handleUrlChange} className="form-control me-2" type="search" placeholder="Enter the URL.." aria-label="Search" />
           <button  class="btn btn-dark btn-lg" onClick={fetchHistogramData}>{loading && <Spinner />}Submit</button>
         </div>
         {loading && <Spinner />}
