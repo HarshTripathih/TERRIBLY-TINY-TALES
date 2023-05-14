@@ -10,7 +10,7 @@ import {
 } from "recharts";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import Spinner from "./Spinner";
-
+import './Dashboard.css';
 
 const COLORS = [
   "#0088FE",
@@ -102,8 +102,9 @@ const TextDataParser = () => {
         {loading && <Spinner />}
         
         {errorMessage && <div style={{ color: "red" }}>{errorMessage}</div>}
-        {histogramData && (
-          <div>
+      </div>
+      {histogramData && (
+          <div style={{alignItems:'center',display:'flex',justifyContent:'center'}}>
             <BarChart width={600} height={400} data={histogramData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f5f5f5" />
               <XAxis dataKey="word" />
@@ -115,7 +116,6 @@ const TextDataParser = () => {
             <h4>Download <mark style={{ backgroundColor: "yellow" }}>.CSV</mark>File</h4>
           </div>
         )}
-      </div>
       <div>
         {data.length > 0 && (
           <div>
