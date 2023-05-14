@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+Project Live Links : [https://wordfrequencyfetcher-harsh.netlify.app/](https://wordfrequencyfetcher-harsh.netlify.app/)
+<h2>Project Description : Word Frequency Fetcher</h2>
+<h3>Stacks Used :</h3>
+<h4>ReactJs,bootstrap,CSS,JavaScript</h4>
+<h3>About Project :</h3>
+<ol>
+  <li>User Can fetch the data of a given text API</li>
+  <li>User can View the data frequency over histogram , bargraph and PieChart</li>
+  <li>User can able to download .CSV file of the data</li>
+  <li>One additional feature user can also use any .text API to use this Word Fetcher Application</li>
+  <li>user can able to see the recodrs of the graphs and histogram which he/she has searched earlier</li>
+</ol>
+<h2>Implemented Description :  Word Frequency Fetcher</h2>
+<ol>
+Process - You need to attempt the Assignment of Terribly Tiny Tales as per the details mentioned below.</h3>
+  <h4>Develop a frontend in Reactjs or Nextjs, which does the following:</h4>
+  <li>On first load, only has a Submit button</li>
+  <li>On clicking on Submit, it will fetch the contents of (https://www.terriblytinytales.com/test.txt)</li>
+  <li>Parse the content and find the frequency of occurrence of each word (some words will occur only once, some twice and so on, and some will occur N times)</li>
+  <li>Then on the frontend, plot a histogram of the 20 most occurring words.</li>
+  <li>Also build an "Export" button, which when clicked will download a CSV file of the histogram data.</li>
+  <h4>X-axis = top 20 words with highest occurrence Y-axis = how many times they occurred in the file</h4>
+</ol>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Tools used : Word Frequency Fetcher</h2>
+<ul>
+  <li>VsCode Editor</li>
+  <li>Figma for desiginig oveall look</li>
+</ul>
 
-## Available Scripts
+<h2>Project Deployment : Word Frequency Fetcher</h2>
+<h3>I have Use Netlify Server For deploying this Project</h3>
 
-In the project directory, you can run:
+<h2>Project Images : News Website</h2>
 
-### `npm start`
+![image](https://github.com/HarshTripathih/TERRIBLY-TINY-TALES/assets/78653464/247dc050-69ee-4002-8206-77424f46361d)
+![image](https://github.com/HarshTripathih/TERRIBLY-TINY-TALES/assets/78653464/8a254ae1-743a-44f3-b95a-056bbbe9329d)
+![image](https://github.com/HarshTripathih/TERRIBLY-TINY-TALES/assets/78653464/c851f372-9b06-4dcd-9060-381e8dd72c4d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
