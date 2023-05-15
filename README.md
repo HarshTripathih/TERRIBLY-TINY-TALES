@@ -31,7 +31,7 @@ Process - You need to attempt the Assignment of Terribly Tiny Tales as per the d
 <h2>Project Deployment : Word Frequency Fetcher</h2>
 <h3>I have Use Netlify Server For deploying this Project</h3>
 
-<h2>Project Images : News Website</h2>
+<h2>Project Images :Word Frequency Fetcher</h2>
 
 ![image](https://github.com/HarshTripathih/TERRIBLY-TINY-TALES/assets/78653464/247dc050-69ee-4002-8206-77424f46361d)
 ![image](https://github.com/HarshTripathih/TERRIBLY-TINY-TALES/assets/78653464/8a254ae1-743a-44f3-b95a-056bbbe9329d)
